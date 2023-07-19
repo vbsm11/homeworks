@@ -1,31 +1,53 @@
 .message {
+    margin-top: 20px;
     text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: end;
 }
 
-.imageAndText {
-
-}
-
-.imageAndText img {
-
-}
-
-.text {
-
-}
-
-.text:after {
+.nameAndText {
+    background-color: #0059b3;
+    border-radius: 15px 15px 0 15px;
+    padding: 15px;
+    color: white;
 
 }
 
 .name {
+    font-size: 130%;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.text {
+    min-width: 100px;
+    max-width: 550px;
+    word-wrap: break-word;
+    font-size: 110%;
+}
+
+.triangle {
+    text-align: end;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #0059b3;;
+    border-right: 25px solid transparent;
 
 }
 
-.messageText {
-
+.imageAndTime {
+    text-align: center;
+    margin-bottom: -20px;
 }
+
+.imageAndTime img {
+    width: 60px;
+    height: 60px;
+}
+
 
 .time {
-
+    color: grey;
 }
