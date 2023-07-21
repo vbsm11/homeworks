@@ -31,7 +31,7 @@ const SuperButton: React.FC<SuperButtonPropsType> = (
             disabled={disabled}
             className={finalClassName}
             {...restProps} // отдаём кнопке остальные пропсы если они есть (children там внутри)
-        />
+        /> // webpack warning postcss (не подгружаются стили для кнопок, классы подгружаюся)
     )
 }
 
